@@ -107,4 +107,4 @@ if __name__ == '__main__':
     try: 
         bot.run(discordToken)
     except:
-        print("Error conntecting to Discord server")
+        print("Error connecting to Discord server")
