@@ -41,7 +41,7 @@ def getRandomPostFromReddit(subVar):
     print('---------------Fetching top 100 posts on r/' + subVar + '---------------')
     for submission in sub.hot(limit=100):
         postList.append(submission.url)
-    print('Randomly selected post:'+ ' ' + picker + ' ' + postList[picker])
+    print(picker)
     return postList[picker]
 
 #TODO
